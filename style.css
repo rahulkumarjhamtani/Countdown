@@ -11,6 +11,7 @@ h1
     font-family: 'Noto Sans JP', sans-serif;
     text-align:center;
     font-size:50px;
+    color: rgb(27, 36, 54);
     margin-top:10vh;
     letter-spacing: 3px;
     word-spacing: 15px;
@@ -26,10 +27,12 @@ h1
 {
     display: inline-block;
     font-size:20px;
+    color: rgb(43, 31, 2);
     margin:1% 5% 1% 5%;
 }
 .num
 {
     font-size:45px;
+    color: rgb(24, 22, 19);
     margin-bottom:20px;
 }

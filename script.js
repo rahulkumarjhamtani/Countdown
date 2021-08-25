@@ -19,13 +19,13 @@ function countdown() {
     // console.log(day, hrs, min, sec);
 
     showdays.innerHTML = day;
-    showhours.innerHTML = hrs;
-    showmins.innerHTML = min;
-    showsecs.innerHTML = sec;
+    showhours.innerHTML = format(hrs);
+    showmins.innerHTML = format(min);
+    showsecs.innerHTML = format(sec);
 }
 
-function formattime(time) {
-    
+function format(time) {
+    return time < 10 ? `0${time}` : time;
 }
 
 countdown();
